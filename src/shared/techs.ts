@@ -79,6 +79,20 @@ export const techs = [
 			},
 		],
 	},
+
+	{
+		title: "Database",
+		arrIcons: [
+			{
+				name: "MySQL",
+				img: mysqlPath,
+			},
+			{
+				name: "MongoDB",
+				img: mongodbPath,
+			},
+		],
+	},
 	{
 		title: "Others",
 		arrIcons: [
@@ -94,19 +108,6 @@ export const techs = [
 			{
 				name: "Git",
 				img: gitPath,
-			},
-		],
-	},
-	{
-		title: "Database",
-		arrIcons: [
-			{
-				name: "MySQL",
-				img: mysqlPath,
-			},
-			{
-				name: "MongoDB",
-				img: mongodbPath,
 			},
 		],
 	},

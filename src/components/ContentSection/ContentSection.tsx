@@ -1,6 +1,6 @@
 export default function ContentSection() {
 	return (
-		<div className="basis-full md:basis-2/4 prose bg-primary">
+		<div className="md:mt-0 mt-8 text-center md:text-start basis-full md:basis-2/4 prose">
 			<div>
 				<h1 className="text-neutral-content">Gaston Pedraza</h1>
 			</div>

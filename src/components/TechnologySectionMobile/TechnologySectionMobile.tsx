@@ -2,11 +2,14 @@ import { techs } from "../../shared/techs";
 
 export default function TechnologySectionMobile() {
 	return (
-		<div>
+		<div className="prose min-w-fit m-auto">
+			<div className="mb-4">
+				<h1 className="text-neutral-content text-center">My Skills</h1>
+			</div>
 			{techs.map((tech) => {
 				return (
 					<div key={tech.title}>
-						<h1>{tech.title}</h1>
+						<h2 className="text-neutral-content mb-4 ml-4">{tech.title}</h2>
 						<div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
 							{tech.arrIcons.map((icon) => {
 								return (

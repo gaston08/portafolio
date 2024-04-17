@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div id="app" className="w-screen mx-auto overflow-hidden">
       <div id="about-me" className="h-screen bg-neutral">
-        <div className="bg-secondary h-screen flex flex-wrap justify-center items-center">
+        <div className="h-screen flex flex-wrap justify-center items-center content-center ">
           <AvatarSection />
           <ContentSection />
         </div>
