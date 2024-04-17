@@ -2,16 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.container-fluid {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+.t-logo-react {
+	background-color: red;
+	-webkit-mask: url(technologies/react.svg) no-repeat center;
+	mask: url(/technologies/react.svg) no-repeat center;
 }
 
-#app {
-	border: 1px solid black;
-	height: 100vh;
-	width: 100vw;
+.icon-technology {
+	width: 120px;
+	height: 120px;
+}
+
+body {
+	width: 100vw !important;
+	background-color: red;
 }
