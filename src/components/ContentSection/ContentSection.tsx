@@ -1,3 +1,5 @@
+import { Typewriter } from "react-simple-typewriter";
+
 export default function ContentSection() {
 	return (
 		<div className="md:mt-0 mt-8 text-center md:text-start basis-full md:basis-2/4 prose">
@@ -9,7 +11,20 @@ export default function ContentSection() {
 			</div>
 			<div className="pr-4">
 				<p className="text-neutral-content">
-					Hola soy Gastón, me encanta programar y busco potenciar mis skills!
+					<Typewriter
+						words={[
+							"Hola soy Gastón!",
+							"Me encanta programar!",
+							"Busco potenciar mis skills!",
+							"Code y Math <3",
+						]}
+						loop={5}
+						cursor
+						cursorStyle="_"
+						typeSpeed={70}
+						deleteSpeed={50}
+						delaySpeed={1000}
+					/>
 				</p>
 			</div>
 		</div>
