@@ -5,9 +5,7 @@ export default function AvatarSection() {
 
 	const img = new Image();
 	img.onload = function () {
-		setTimeout(() => {
-			setImgLoaded(true);
-		}, 3000);
+		setImgLoaded(true);
 	};
 	img.src = "me-dog.jpeg";
 

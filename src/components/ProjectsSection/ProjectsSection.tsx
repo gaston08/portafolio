@@ -94,6 +94,7 @@ export default function ProjectsSection() {
 						<a
 							className="link link-accent"
 							href="https://github.com/gaston08/evaluate-me-app"
+							target="_blank"
 						>
 							Repo
 						</a>
@@ -102,7 +103,7 @@ export default function ProjectsSection() {
 						<div className="stat">
 							<div className="stat-title">Usuarios</div>
 							<div className="stat-value text-center text-primary mt-2 mb-2">
-								303
+								582
 							</div>
 							<div className="flex justify-center items-center">
 								<img src={userSvg} className="w-5 h-auto text-primary" />
@@ -112,7 +113,7 @@ export default function ProjectsSection() {
 						<div className="stat">
 							<div className="stat-title">Exámenes resueltos:</div>
 							<div className="stat-value text-center text-secondary mt-2 mb-2">
-								1120
+								2843
 							</div>
 							<div className="flex justify-center items-center">
 								<img src={bookSvg} className="w-5 h-auto text-primary" />
@@ -122,7 +123,7 @@ export default function ProjectsSection() {
 				</div>
 			</div>
 
-			<div className="pl-8 mt-4 mb-20 md:mb-28">
+			<div className="pl-8 mt-12 mb-20 md:mb-28">
 				<h1 className="text-neutral-content text-4xl">Otros proyectos</h1>
 			</div>
 			<div className="flex justify-center items-center content-center gap-12 flex-wrap">

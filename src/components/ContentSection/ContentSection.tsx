@@ -5,9 +5,9 @@ export default function ContentSection() {
 				<h1 className="text-neutral-content">Gaston Pedraza</h1>
 			</div>
 			<div>
-				<h4 className="text-neutral-content">Web developer full stack</h4>
+				<h4 className="text-neutral-content">Desarrollador web full stack</h4>
 			</div>
-			<div>
+			<div className="pr-4">
 				<p className="text-neutral-content">
 					Hola soy Gastón, me encanta programar y busco potenciar mis skills!
 				</p>

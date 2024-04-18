@@ -9,12 +9,12 @@ export default function JobsSection() {
 					<div className="timeline-start md:text-end mb-10">
 						<time className="font-mono italic">2021-2022</time>
 						<div className="text-lg font-black">Raxar Inc.</div>
-						En mi primera etapa trabaje como frontend jr con vue.js, nuxt.js y
+						En mi primera etapa trabajé como frontend jr con vue.js, nuxt.js y
 						vuetify. Aplicando la metodología ágil scrum con un equipo de 10
 						personas, desarrollamos aplicaciones 3D interactivas que permiten
 						realizar recorridos virtuales, utilizando PANO y THREE.js. En mi
 						segunda etapa, trabaje como full stack ssr con react, three.js, node
-						y mysql. Además profundice mis conocimientos sobre three.js y pude
+						y mysql. Además profundicé mis conocimientos sobre three.js y pude
 						especializarme en el frontend.
 					</div>
 					<hr />
@@ -27,9 +27,9 @@ export default function JobsSection() {
 					<div className="timeline-end mb-10">
 						<time className="font-mono italic">2022-2023</time>
 						<div className="text-lg font-black">Kushki</div>
-						Trabaje como desarrollador frontend ssr, con un squad de mas de 60
-						personas, utilizando la metodologia agil scrum. Trabaje con las
-						tecnologias react, typescript y test unitarios con jest. Tambien
+						Trabajé como desarrollador frontend ssr, con un squad de más de 60
+						personas, utilizando la metodología ágil scrum. Utilicé las
+						tecnologias react, typescript y test unitarios con jest. También
 						estuve a cargo de manejar la consola de aws.
 					</div>
 					<hr />
@@ -41,11 +41,13 @@ export default function JobsSection() {
 					</div>
 					<div className="timeline-start mb-10">
 						<time className="font-mono italic">2023</time>
-						<div className="text-lg font-black">Ecommerce</div>
-						Desarrollo de un proyecto ecommerce autoadministrable de principio a
-						fin. Carga y manejo de productos, stock, pasarela de pago con
-						mercado pago. Desarrollado con React, node, mysql, mongoDB y
-						material-ui.
+						<div className="text-lg font-black">
+							Ecommerce autoadministrable
+						</div>
+						Trabajé en el desarrollo de un proyecto ecommerce autoadministrable
+						de principio a fin utilizando react, typescript, mongodb y mysql. La
+						plataforma cuenta con carga y manejo de productos, stock,
+						integración con mercado pago.
 					</div>
 					<hr />
 				</li>
@@ -54,15 +56,14 @@ export default function JobsSection() {
 					<div className="timeline-middle">
 						<SvgCheck />
 					</div>
-					<div className="timeline-end md:text-end mb-10">
+					<div className="timeline-end mb-10">
 						<time className="font-mono italic">2023-2024</time>
 						<div className="text-lg font-black">ubaparciales.com</div>
-						En mayo del mismo año tuve la necesidad de poder practicar modelos
-						de parciales de años anteriores y me encontre con la dificultad de
-						poder encontrar examenes sin spoiler de respuestas correctas, y
-						ademas de tener que calcular mis notas a mano. De ahi es donde nace
-						ubaparciales, para facilitar la realizacion de examenes y obtener
-						feedback, llevar un seguimiento de cada examen.
+						ubaparciales permite a los estudiantes de la uba realizar parciales
+						de años anteriores, con la única finalidad de poder prepararse para
+						los exámenes. Actualmente la plataforma se encuentra áctiva y cada
+						día suma nuevos usuarios. El proyecto aún se encuentra en
+						desarrollo.
 					</div>
 					<hr />
 				</li>
@@ -74,10 +75,10 @@ export default function JobsSection() {
 					<div className="timeline-start mb-10">
 						<time className="font-mono italic">2023-2024</time>
 						<div className="text-lg font-black">
-							Profesor particular matematica
+							Profesor particular de matemáticas
 						</div>
-						Trabaje como profesor particular de matematica para el ingreso a la
-						faculta de ingenira de jujuy.
+						Trabaje como profesor particular de matemáticas para el ingreso a la
+						facultad de ingenieria de Jujuy.
 					</div>
 					<hr />
 				</li>

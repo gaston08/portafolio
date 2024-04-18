@@ -17,6 +17,11 @@ export default function App() {
       </div>
       <div id="technology" className="md:h-auto h-auto bg-neutral">
         <div className="h-auto hidden md:block">
+          <div className="mb-20">
+            <div className="text-2xl text-neutral-content divider divider-accent mt-0">
+              My Skills
+            </div>
+          </div>
           <TechnologySection />
         </div>
         <div className="h-auto md:hidden text-neutral-content">
@@ -29,7 +34,7 @@ export default function App() {
         </div>
       </div>
       <div id="job-experience" className="h-auto mt-20">
-        <div className="text-2xl text-neutral-content divider divider-accent mt-20">
+        <div className="text-2xl text-neutral-content divider divider-accent mt-20 mb-12">
           Experiencia Laboral
         </div>
         <div className="h-full flex flex-wrap justify-center items-center">

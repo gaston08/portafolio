@@ -66,7 +66,11 @@ export default function ContactForm() {
 					{state.errors &&
 						state.errors.formErrors.map((err) => {
 							return (
-								<div role="alert" className="alert alert-error">
+								<div
+									key={err.message}
+									role="alert"
+									className="alert alert-error"
+								>
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										className="stroke-current shrink-0 h-6 w-6"
@@ -91,7 +95,7 @@ export default function ContactForm() {
 						disabled={state.submitting}
 						className="btn btn-accent"
 					>
-						Warning
+						Enviar email
 					</button>
 				</div>
 			</form>
