@@ -18,7 +18,7 @@ export default function ContentSection() {
 							"Busco potenciar mis skills!",
 							"Code y Math <3",
 						]}
-						loop={5}
+						loop={0}
 						cursor
 						cursorStyle="_"
 						typeSpeed={70}
