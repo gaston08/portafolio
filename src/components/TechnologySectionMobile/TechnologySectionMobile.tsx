@@ -4,7 +4,9 @@ export default function TechnologySectionMobile() {
 	return (
 		<div className="prose min-w-fit m-auto">
 			<div className="mb-4">
-				<h1 className="text-neutral-content text-center">My Skills</h1>
+				<div className="text-2xl text-neutral-content divider divider-accent mt-0">
+					Skills
+				</div>
 			</div>
 			{techs.map((tech) => {
 				return (

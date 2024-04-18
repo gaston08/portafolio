@@ -2,10 +2,11 @@ import AvatarSection from "./components/AvatarSection";
 import ContentSection from "./components/ContentSection";
 import TechnologySection from "./components/TechnologySection";
 import TechnologySectionMobile from "./components/TechnologySectionMobile";
+import ProjectsSection from "./components/ProjectsSection";
 
 export default function App() {
   return (
-    <div id="app" className="w-screen mx-auto overflow-hidden">
+    <div id="app" className="w-screen mx-auto overflow-hidden bg-neutral">
       <div id="about-me" className="h-screen bg-neutral">
         <div className="h-screen flex flex-wrap justify-center items-center content-center ">
           <AvatarSection />
@@ -22,7 +23,7 @@ export default function App() {
       </div>
       <div id="projects" className="md:h-screen h-auto">
         <div className="h-full flex flex-wrap justify-center items-center">
-          Projectos
+          <ProjectsSection />
         </div>
       </div>
       <div id="job-experience" className="md:h-screen h-auto">
