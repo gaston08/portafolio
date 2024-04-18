@@ -42,7 +42,7 @@ export const techs = [
 		],
 	},
 	{
-		title: "Design",
+		title: "Diseño",
 		arrIcons: [
 			{
 				name: "Bootstrap",
@@ -81,7 +81,7 @@ export const techs = [
 	},
 
 	{
-		title: "Database",
+		title: "Base de datos",
 		arrIcons: [
 			{
 				name: "MySQL",
@@ -94,7 +94,7 @@ export const techs = [
 		],
 	},
 	{
-		title: "Others",
+		title: "Otras",
 		arrIcons: [
 			{
 				name: "Typescript",

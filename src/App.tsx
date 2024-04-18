@@ -19,7 +19,7 @@ export default function App() {
         <div className="h-auto hidden md:block">
           <div className="mb-20">
             <div className="text-2xl text-neutral-content divider divider-accent mt-0">
-              My Skills
+              Tecnologías
             </div>
           </div>
           <TechnologySection />
