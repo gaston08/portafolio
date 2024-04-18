@@ -3,6 +3,8 @@ import ContentSection from "./components/ContentSection";
 import TechnologySection from "./components/TechnologySection";
 import TechnologySectionMobile from "./components/TechnologySectionMobile";
 import ProjectsSection from "./components/ProjectsSection";
+import JobsSection from "./components/JobsSection";
+import ContactSection from "./components/ContactSection";
 
 export default function App() {
   return (
@@ -21,21 +23,32 @@ export default function App() {
           <TechnologySectionMobile />
         </div>
       </div>
-      <div id="projects" className="md:h-screen h-auto">
+      <div id="projects" className="h-auto">
         <div className="h-full flex flex-wrap justify-center items-center">
           <ProjectsSection />
         </div>
       </div>
-      <div id="job-experience" className="md:h-screen h-auto">
-        <div className="h-full flex flex-wrap justify-center items-center">
+      <div id="job-experience" className="h-auto mt-20">
+        <div className="text-2xl text-neutral-content divider divider-accent mt-20">
           Experiencia Laboral
         </div>
-      </div>
-      <div id="contact" className="md:h-screen h-auto">
         <div className="h-full flex flex-wrap justify-center items-center">
-          Contacto
+          <JobsSection />
         </div>
       </div>
+      <div id="contact" className="h-screen">
+        <div className="text-2xl text-neutral-content divider divider-accent mt-20">
+          Contacto
+        </div>
+        <div className="h-full flex flex-wrap justify-center items-center">
+          <ContactSection />
+        </div>
+      </div>
+      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+        <aside>
+          <p>Copyright © 2024 - Todos los derechos reservados.</p>
+        </aside>
+      </footer>
     </div>
   );
 }
