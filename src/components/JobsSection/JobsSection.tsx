@@ -39,7 +39,7 @@ export default function JobsSection() {
 					<div className="timeline-middle">
 						<SvgCheck />
 					</div>
-					<div className="timeline-start mb-10">
+					<div className="timeline-start mb-10 md:text-end">
 						<time className="font-mono italic">2023</time>
 						<div className="text-lg font-black">
 							Ecommerce autoadministrable
@@ -72,7 +72,7 @@ export default function JobsSection() {
 					<div className="timeline-middle">
 						<SvgCheck />
 					</div>
-					<div className="timeline-start mb-10">
+					<div className="timeline-start mb-10 md:text-end">
 						<time className="font-mono italic">2023-2024</time>
 						<div className="text-lg font-black">
 							Profesor particular de matemáticas
